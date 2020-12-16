@@ -1,0 +1,19 @@
+Queremos que um repositório do Git seja inicializado, e para tal usamos o comando:
+git init
+
+Agora o Git sabe da existencia dos arquivos dakele diretorio q vc se encontra.
+
+git status -> mostra os arquivos modificados
+
+git add . -> fará que o git monitorará os arquivos
+
+git log -> mostra o historio de alterações 
+
+git config --local user.name "seu nome aki dentro"-> autor que esta comitando
+
+git config --local user.email "seu email aki dentro@outlook.com"-> email do autor
+
+git config user.nome -> mostra o nome 
+
+git log --oneline -> mostra cada commit em uma unica linha para cada
+
