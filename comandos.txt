@@ -5,7 +5,9 @@ Agora o Git sabe da existencia dos arquivos dakele diretorio q vc se encontra.
 
 git status -> mostra os arquivos modificados
 
-git add . -> fará que o git monitorará os arquivos
+git add . -> fará que o git monitorará os arquivos, preparo para comitar
+
+git commit -m "deve passar frases descretivas curtas" -> comita o arquivo, tudo ok
 
 git log -> mostra o historio de alterações 
 
@@ -16,4 +18,10 @@ git config --local user.email "seu email aki dentro@outlook.com"-> email do auto
 git config user.nome -> mostra o nome 
 
 git log --oneline -> mostra cada commit em uma unica linha para cada
+
+mkdir Pasta -> ele cria uma pasta, Pasta eh o nome da pasta criada. 
+
+git init --bare -> para criar um repositorio que so contem os repositorios dos arquivos 
+
+
 
