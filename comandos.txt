@@ -23,5 +23,24 @@ mkdir Pasta -> ele cria uma pasta, Pasta eh o nome da pasta criada.
 
 git init --bare -> para criar um repositorio que so contem os repositorios dos arquivos 
 
+git remote -> para criar repositorios remotos
+
+git remote add local C:\Users\vinic\Documents\Compasso\servidor/ -> local onde estara o servidor local
+
+git remote -> mostrara q temos um servidor local
+
+git remote -v -> mostrará os caminhos do servidor existente 
+
+git clone /c/Users/vinic/Documents/Compasso/servidor/ NomedapastaQueVocePodeCriarEsalvaráAkiDentro -> clone os arquivos do repositorio passado 
+no cominho e coloca na parta NomedapastaQueVocePodeCriarEsalvaráAkiDentro
+
+Volte no diretório que vc quer contem os arquivos que vc quer mandar pro servidor, no ex temos a pasta Git 
+
+informe a linha de comando: 
+
+git push local master -> local foi definido na criação do servidor 
+
+git remote rename origin local -> muda o nome de origin para local -> este nome eh do servidor remoto
+
 
 
