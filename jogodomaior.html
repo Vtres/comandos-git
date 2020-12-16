@@ -1,0 +1,37 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	var  n , a , b ; 
+ 	var contador_a , counter_b ;
+ 	var recebe;
+ 	while ( true){ 
+ 		n = prompt();
+
+ 		if(n==0){
+
+ 			break;
+
+ 		}else{ 
+ 			
+ 			contador_a = 0 ; 
+	  		counter_b = 0 ;
+
+		  	for( var i=0; i<n; i++ ){ 
+
+		   		a = prompt();
+		   		b = prompt();
+
+			   	if ( a > b ){
+			   		contador_a++; 
+			   	}
+			   	if( a < b ){
+			    	counter_b++;
+			   	}
+		  	}
+		  	console.log("%s %s",contador_a, counter_b);
+		  	console.log(" ");
+		  }
+	}
+			
+
+</script>
