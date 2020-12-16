@@ -42,5 +42,8 @@ git push local master -> local foi definido na criação do servidor
 
 git remote rename origin local -> muda o nome de origin para local -> este nome eh do servidor remoto
 
+Para mandar sempre pro servidor vc tem q dar um push
 
+git push local master
+ 
 
