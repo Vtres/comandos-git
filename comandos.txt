@@ -45,5 +45,6 @@ git remote rename origin local -> muda o nome de origin para local -> este nome 
 Para mandar sempre pro servidor vc tem q dar um push
 
 git push local master
- 
+
+Mas também o comando de cima baixa os arquivos do servidor, nao precisando mais clonar 
 
