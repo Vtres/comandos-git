@@ -48,3 +48,15 @@ git push local master
 
 Mas também o comando de cima baixa os arquivos do servidor, nao precisando mais clonar 
 
+git tag -a v0.1.0 -m "Lançando a primeira versão Beta da aplicação" --> como criar reliase (tag)
+
+git tag --> visualiza tags/reliase criadas
+
+git push local v0.1.0 --> manda o que há em local para nossa versao/tag/reliase
+
+git push origin v0.1.0 --> manda pro github
+
+
+
+
+
