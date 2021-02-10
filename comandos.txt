@@ -56,6 +56,7 @@ git push local v0.1.0 --> manda o que há em local para nossa versao/tag/reliase
 
 git push origin v0.1.0 --> manda pro github
 
+ana me ajudando!
 
 
 
